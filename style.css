@@ -15,6 +15,14 @@ h2 {
   align-items: center;
   justify-content: center;
   color: #000;
+  background: radial-gradient(
+    circle at 50% 40%,
+    #eb7704,
+    #eb7704 66%,
+    #eb7704 100%
+  );
+  border-radius: 90%;
+  box-shadow: rgba(77, 77, 77, 0.2) 0 5px 60px 0 inset;
 }
 .container {
   height: 300px;
