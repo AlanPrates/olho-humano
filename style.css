@@ -8,13 +8,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at 50% 40%, #f1f0ef, #fff3e6);
+  background: radial-gradient(circle at 50% 40%, #fcfcfc, #eb7704);
 }
-h1 {
+h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #6fbfff;
+  color: #000;
 }
 .container {
   height: 300px;
@@ -34,7 +34,7 @@ h1 {
     circle at 50% 40%,
     #fcfcfc,
     #f1f2f3 66%,
-    #9b5050 100%
+    #eb7704 100%
   );
   border-radius: 50%;
   box-shadow: rgba(77, 77, 77, 0.2) 0 5px 60px 0 inset;
@@ -63,7 +63,7 @@ h1 {
   background: radial-gradient(
     circle at 50% 50%,
     #34566f 0%,
-    #6fbfff 30%,
+    #e89b0c 30%,
     #34566f 100%
   );
   transform: translate(68px) translateY(-60px) skewX(15deg) skewY(2deg);
